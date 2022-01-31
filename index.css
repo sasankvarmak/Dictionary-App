@@ -1,0 +1,118 @@
+body {
+  padding: 10px;
+}
+.bg-container {
+  border: 3px double black;
+
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 52px;
+}
+#input {
+  margin-bottom: 20px;
+}
+#define {
+  margin-right: 10px;
+}
+#reset {
+  margin-left: 10px;
+}
+.bottom-container {
+  max-width: 600px;
+  border-radius: 15px;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  max-width: 500px;
+}
+.searched-list-container {
+}
+.searched-words {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#error-button {
+  border-radius: 100px;
+}
+#save {
+  border-radius: 100px;
+}
+#define {
+  border-radius: 100px;
+}
+#reset {
+  border-radius: 100px;
+}
+.table {
+}
+button {
+  padding: 10px 50px 10px 50px;
+}
+.heading {
+  padding: 40px;
+}
+.wordName {
+  font-weight: bold;
+  font-size: 20px;
+}
+.box {
+  text-align: center;
+  padding: 50px;
+
+  width: 100%;
+}
+.list-container {
+  list-style-type: none;
+  /* border: 2px solid skyblue;
+  border-radius: 10px;  */
+}
+.li-element {
+  /* padding: 0px 10px 0px 10px;*/
+  padding-left: 10px;
+}
+span {
+  font-weight: bold;
+}
+.searchWord {
+  font-size: 35px;
+}
+
+.alert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  border: 3px double;
+}
+.alert-inner-container {
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid;
+}
+table {
+  text-align: center;
+}
+th td {
+  width: 40%;
+  padding: 5px;
+}
+thead th {
+  padding: 5px 10px 5px 10px;
+}
